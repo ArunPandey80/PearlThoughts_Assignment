@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:387443697682:task-definition/nodejs-app-task-definition:7",
+    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:387443697682:task-definition/nodejs-app-task-definition:10",
     "containerDefinitions": [
         {
             "name": "nodeapp",
@@ -37,7 +37,7 @@
     "taskRoleArn": "arn:aws:iam::387443697682:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::387443697682:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 7,
+    "revision": 10,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -75,6 +75,7 @@
         "FARGATE"
     ],
     "requiresCompatibilities": [
+        "EC2",
         "FARGATE"
     ],
     "cpu": "1024",
@@ -83,7 +84,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-06-17T14:26:37.879Z",
+    "registeredAt": "2024-06-17T16:10:11.985Z",
     "registeredBy": "arn:aws:iam::387443697682:user/Arun-Pandey",
     "tags": []
 }
